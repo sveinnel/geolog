@@ -3,13 +3,13 @@
 
 GprsGateway::GprsGateway(long timeout): NetworkGateway()//,SoftwareSerial(rxpin,txpin),
 {   
-    ip = "89.160.207.212"; // IP address of server we're connecting to
-    host = "Host: sveinnel.com:5000\n"; // required in HTTP 1.1 - what's the name of the host at this IP address?
+    ip = "XXX.XXX.XXX.XXX"; // IP address of server we're connecting to
+    host = "Host: somehost.com:80\n"; // required in HTTP 1.1 - what's the name of the host at this IP address?
     request = "POST /geolog HTTP/1.1\n";                 
     Accept = "Accept: */*\n";
     content = "Content-Type: application/json\n";
     useragent = "User-Agent: curl/7.35.0\n"; 
-    apn = "gprs.is";
+    apn = "APN"; //Your APN
     cont = false;
     timeOut = timeout;
 
