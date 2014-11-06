@@ -25,6 +25,9 @@ Class Diagram
 -------------
 ![Class Diagram](https://raw.githubusercontent.com/sveinnel/geolog/master/Images/ClassDiagram.png "Class Diagram")
 
+Web Server
+----------
+The web server is a simple Flask-Restful Api and a human readable route using Flask. This server was just set up as a proof of consept but works fine for testing application. All authentication and security features have yet to be implemented.
 
 ######Copyright (C) 2014-2015, Páll Svavar Helgason, Sindri Ólafsson, Sveinn Elmar Magnússon and Þór Tómasarson.
 
