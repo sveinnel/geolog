@@ -2,7 +2,7 @@ GeoLog
 ======
 
 The GeoLog is a datalogger based on an [project](https://github.com/NorthernWidget/ALog-BottleLogger) 
-developed by Andrew D. Wickert and was built in the course Mechatronics I at Reykajvik University, fall 2014. 
+developed by [Andrew D. Wickert](http://instaar.colorado.edu/~wickert/) and was built in the course Mechatronics I at Reykajvik University, fall 2014. 
 
 The GeoLog is a modular platform for datalogging built on a 
 [Arduino Mega 2560](http://arduino.cc/en/Main/arduinoBoardMega2560). This version usees
